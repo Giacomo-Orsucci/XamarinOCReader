@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead.Android\\AppEyeRead.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead.Android\\AppEyeRead.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead.Android\\AppEyeRead.Android.csproj",
+        "projectName": "AppEyeRead.Android",
+        "projectPath": "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead.Android\\AppEyeRead.Android.csproj",
+        "packagesPath": "C:\\Users\\orsuc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\orsuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead\\AppEyeRead.csproj": {
+                "projectPath": "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead\\AppEyeRead.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead\\AppEyeRead.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead\\AppEyeRead.csproj",
+        "projectName": "AppEyeRead",
+        "projectPath": "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead\\AppEyeRead.csproj",
+        "packagesPath": "C:\\Users\\orsuc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\orsuc\\Desktop\\AppEyeRead\\AppEyeRead\\AppEyeRead\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\orsuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xam.Plugins.TextToSpeech": {
+              "target": "Package",
+              "version": "[4.0.0.7, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.1931, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

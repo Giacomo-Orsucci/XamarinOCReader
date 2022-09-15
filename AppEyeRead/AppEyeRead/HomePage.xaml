@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppEyeRead.MainPage">
+
+    <Grid>
+        
+        <Grid.GestureRecognizers>
+            
+            <TapGestureRecognizer Tapped="Tap">
+                
+            </TapGestureRecognizer>
+            
+        </Grid.GestureRecognizers>
+        
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.7*"/>
+
+
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+
+
+
+        </Grid.ColumnDefinitions>
+        
+        <Label Text="Benvenuto, io sono EyeRead!" 
+               VerticalTextAlignment="Center" 
+               HorizontalTextAlignment="Center" 
+               FontSize="Large" 
+               FontAttributes="Bold"
+               BackgroundColor="Aquamarine" 
+               Grid.Row="0"
+               Grid.ColumnSpan="2"
+         />
+
+        
+            
+        <ImageButton
+            Clicked="HomePagePencil"
+            Margin="10,0,0,10"
+            BackgroundColor="Transparent"
+            Grid.Row="1"
+            Grid.Column="0"
+            Aspect="Fill"
+            Source="usapenna.png"
+            >
+
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale" Value="1"/>
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState x:Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="Scale" Value="0.9"/>
+                        </VisualState.Setters>
+                    </VisualState>
+
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+
+
+
+        </ImageButton>
+       
+
+
+        <ImageButton
+            Margin="0,0,5,4"
+            BackgroundColor="Transparent"
+            Grid.Row="1"
+            Grid.Column="1"
+            Aspect="Fill"
+            Source="usafotocamera.png"
+            Clicked = "HomePageCamera">
+
+
+
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale" Value="1"/>
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState x:Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="Scale" Value="0.9"/>
+                        </VisualState.Setters>
+                    </VisualState>
+
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+
+        </ImageButton>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppEyeRead"
+             x:Class="AppEyeRead.PhotoScanPage">
+
+
+    <ContentPage x:Name="SavedNotesContent" >
+
+        <Label>
+            "Pagina note salvate"
+        </Label>
+
+    </ContentPage>
+
+    <ContentPage x:Name="ScanContent" >
+        
+    </ContentPage>
+
+    
+    <ContentPage x:Name="OptionContent" >
+        
+     
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="16*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+        
+
+            <Label Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold"> Opzioni </Label>
+            <Label Grid.Row="2" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold">Connetti penna</Label>
+            <Label Grid.Row="3" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold">Personalizza voce</Label>
+            <Label Grid.Row="4" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold">Aiuto</Label>
+            <Label Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold">Sintesi vocale</Label>
+            <Label Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold">Tema scuro</Label>
+            
+            <Label Grid.Row="9" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold">Sostieni il progetto</Label>
+            <Label Grid.Row="10" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold">Chi siamo</Label>
+
+            <CheckBox IsChecked="true" Grid.Row="5" Grid.Column="1" HorizontalOptions="Start"/>
+            <CheckBox Grid.Row="6" Grid.Column="1" HorizontalOptions="Start"/>
+
+        </Grid>
+
+    </ContentPage>
+    
+</CarouselPage>
